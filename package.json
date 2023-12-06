@@ -1,0 +1,40 @@
+{
+  "name": "@fightingdreamer/iter-map",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/iter-map.cjs",
+  "module": "./dist/iter-map.js",
+  "typings": "./dist/iter-map.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/iter-map.js",
+      "require": "./dist/iter-map.cjs"
+    }
+  },
+  "version": "0.1.0",
+  "description": "Missing map over iterable.",
+  "scripts": {
+    "test": "vitest --run",
+    "test:watch": "vitest",
+    "build": "vite build",
+    "build:watch": "vite build --watch"
+  },
+  "keywords": [
+    "iter"
+  ],
+  "author": {
+    "name": "Patryk Stępień"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/fightingdreamer/npm-iter-map",
+  "devDependencies": {
+    "vite": "^5.0.5",
+    "vite-plugin-dts": "^3.6.4",
+    "vitest": "^0.34.6"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
