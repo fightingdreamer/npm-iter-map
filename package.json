@@ -13,7 +13,7 @@
       "require": "./dist/iter-map.cjs"
     }
   },
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Missing map over iterable.",
   "scripts": {
     "test": "vitest --run",
