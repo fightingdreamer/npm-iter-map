@@ -1,7 +1,7 @@
 /**
-  Map items from iterator by callbackFn
-  @returns iterator over mapped items
-*/
+ * Map items from iterator by callbackFn
+ * @returns iterator over mapped items
+ */
 export function* map<T, R>(
   iterator: Iterable<T>,
   callbackFn: (item: T, index: number) => R,
